@@ -23,7 +23,7 @@
      
  }
  
- body , .navbar {
+ .navbar, .home-callout {
    
   // Gradient provided by @_ighosh at UIGradients.com
   background: #24C6DC; /* fallback for old browsers */
@@ -34,4 +34,11 @@
 
 .navbar {
  border: none; 
+}
+
+.home-callout {
+ color:white;
+ margin-top: -20px;
+ padding-top: 50px;
+ padding-bottom: 100px;
 }
